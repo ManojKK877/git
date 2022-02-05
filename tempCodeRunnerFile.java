@@ -1,1 +1,1 @@
- 
+isEmpty
