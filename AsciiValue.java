@@ -7,7 +7,7 @@ public class AsciiValue {
          System.out.println("enter the Character value :");
          char name= scan.next().charAt(0);
          int CHAR =name;
-         System.out.println("the ASCII value is" +CHAR);
+         System.out.println("the ASCII value is :" +CHAR);
     
     }
     

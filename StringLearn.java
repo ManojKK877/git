@@ -1,6 +1,22 @@
+import java.lang.String;
 public class StringLearn {
     public static void main(String[] args)
     {
+       /* int n1=5,fact=n1;
+   while(n1>1)
+    {
+    n1--;
+    fact=fact*n1;
+    
+    }
+    System.out.println(fact);*/ 
+    String name=new String();
+        name="nanoj kumar";
+        System.out.println(name.replaceAll("\\s", "-"));
+        
+        System.out.println(name.join("_", "5","7","2000"));
+
+
       /* String s1="  ";
        String s2="hello";s
        System.out.println(s1.isBlank());
@@ -18,8 +34,12 @@ for(int i=0;i<name.length();i++)
     if(names=='a'||names=='e'||names=='i'||names=='o'||names=='u')
     {
 System.out.println(names);*/
-String name ="ooo";
+
+/*String name ="ooo";
 int  count=0;//countofa=0,countofe=0,countofi=0,countofo=0,countofu=0;
+char[] names1 ={'m','a','n','o','j'};
+String value1=new String(names1);
+System.out.println(value1);
 for(int i=0; i<name.length();i++)
 {
 char names = name.charAt(i);
@@ -43,7 +63,7 @@ switch(names)
     break;
     default:
     
-}
+}*/
 
 /*System.out.println("the number of count value O IS:"+countofo);
 System.out.println("the number of count value I  IS:"+countofi);
@@ -52,7 +72,7 @@ System.out.println("the number of count value E IS:"+countofe);
 System.out.println("the number of count value A IS:"+countofa);*/
 }
     }
-}
+
 
     
 
