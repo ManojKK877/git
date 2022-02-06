@@ -1,4 +1,5 @@
 import java.lang.String;
+import java.util.Scanner;
 public class StringLearn {
     public static void main(String[] args)
     {
@@ -10,11 +11,11 @@ public class StringLearn {
     
     }
     System.out.println(fact);*/ 
-    String name=new String();
+    /*String name=new String();
         name="nanoj kumar";
         System.out.println(name.replaceAll("\\s", "-"));
         
-        System.out.println(name.join("_", "5","7","2000"));
+        System.out.println(name.join("_", "5","7","2000"));*/
 
 
       /* String s1="  ";
@@ -70,8 +71,29 @@ System.out.println("the number of count value I  IS:"+countofi);
 System.out.println("the number of count value U IS:"+countofu);
 System.out.println("the number of count value E IS:"+countofe);
 System.out.println("the number of count value A IS:"+countofa);*/
-}
+       Scanner input = new Scanner(System.in);
+        System.out.println("Enter the Number: ");
+        int theNumber = input.nextInt();
+        if(theNumber == 1) {
+            System.out.println("Composite number");
+            return;
+        }
+        if(theNumber == 2) {
+            System.out.println("Prime Number");
+            return;
+        }
+        for(int i = 2;i<=((theNumber) / 2);i++) {
+            if (theNumber % i == 0) {
+                System.out.println("Composite Number");
+                return;
+            }
+        }
+        System.out.println("Prime Number");
     }
+
+
+}
+    
 
 
     
