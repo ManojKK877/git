@@ -1,8 +1,7 @@
  import java.util.Scanner;
  public class FibonacciSequence {
-      public static void main(String[] args)
-      {
-          Scanner scan =new Scanner(System.in);
+    public static void main(String[] args){
+    Scanner scan =new Scanner(System.in);
           System.out.println("enter the n value :");
           int a=-1,b=1,c;
           int n=scan.nextInt();
