@@ -3,7 +3,7 @@ public class charNumber {
     public static void main(String[] args)
     {
     int number = 55;
-    char character = (char) number;
+    char character =(char)number;
     System.out.println("the integer is convert to the char: "+character);
 }
 }

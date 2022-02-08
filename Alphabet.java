@@ -17,7 +17,7 @@ public class Alphabet {
                 else
                 System.out.print("this is  not a aphabet :"+value);
             }
-        
+            scan.close();
 
 
     }
