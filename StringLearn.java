@@ -6,8 +6,8 @@ import javax.lang.model.util.ElementScanner14;
 public class StringLearn {
     public static void main(String[] args)
     {
-        Scanner scan=new Scanner(System.in);
-        int [] array={20,50,60,85};
+        Scanner scan=new     Scanner(System.in);
+        /*int [] array={20,50,60,85};
         int [] array1={10,20,30};
         int n=8;
         int c[]=new int [n];
@@ -164,9 +164,16 @@ System.out.println("the number of count value I  IS:"+countofi);
 System.out.println("the number of count value U IS:"+countofu);
 System.out.println("the number of count value E IS:"+countofe);
 System.out.println("the number of count value A IS:"+countofa);*/
+int [] array={20,50,60,85};
+        int [] array1={10,20,30};
+        System.out.println(array.length+array1.length);
 
-     /* int n=5;
-      int secondmax=Integer.MIN_VALUE;
+      int n=10;
+      int secondmax=0;
+      int thirdmax=0;
+      int fourthmax=0;
+      
+
        int [] mark=new int[n];
        for(int i=0;i<mark.length;i++)
        {
@@ -177,7 +184,8 @@ System.out.println("the number of count value A IS:"+countofa);*/
        {
            if(mark[i]>max)
            {
-          //secondmax=max;
+          
+            //secondmax=max;
             max=mark[i];
            }
        
@@ -185,9 +193,21 @@ System.out.println("the number of count value A IS:"+countofa);*/
        {
            secondmax=mark[i];
        }
+       else if(mark[i]>thirdmax)
+       {
+           thirdmax=mark[i];
+       }
+       else if(mark[i]>fourthmax)
+       {
+           fourthmax=mark[i];
+       }
     }
+    System.out.println("----------------------------");
        System.out.println(max);
-        System.out.println(secondmax);*/
+        System.out.println(secondmax);
+        System.out.println(thirdmax);
+        System.out.println(fourthmax);
+
     }
 
 

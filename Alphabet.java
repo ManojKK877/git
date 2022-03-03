@@ -6,10 +6,11 @@ public class Alphabet {
     {
         Scanner scan= new Scanner(System.in);
         System.out.println("enetr the Character:");
-        String values=scan.nextLine();
-        for(int i=0;i<values.length();i++)
+       /* String values=scan.nextLine();
+        for(int i=0;i<values.length();i++)*/
                
-            {     char value= values.charAt(i);
+            // char value= values.charAt(i);
+              char value=scan.next().charAt(0);
                 if(value>=65 &&value<=90||value>=97 &&value<=122)
                 {
                     System.out.print("this is alphabet :"+value);
@@ -17,8 +18,10 @@ public class Alphabet {
                 else
                 System.out.print("this is  not a aphabet :"+value);
             }
-            scan.close();
+           
+          
+            //scan.close();
 
+        }
+    
 
-    }
-}

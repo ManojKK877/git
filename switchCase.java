@@ -11,12 +11,12 @@ import java.util.Scanner;
             int b=scan.nextInt(),c;
         switch(choice)
         {
-            case 1:c=a+b;
+            case 1 :c=a+b;
             System.out.println("the Addition value : "+a +"+"+b+"="+c);
             break;
-            case 2:c=a-b;
+            /*case 2:c=a-b;
             System.out.println("the Subractions value : "+a +"-"+b+"="+c);
-            break;
+            break;*/
             case 3:c=a*b;
             System.out.println("the Mutliplication value :"+a +"*"+b+"=" +c);
             break;

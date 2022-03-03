@@ -9,10 +9,10 @@ public class FactorialNumberRecursion {
     }
     public static long multiplyNumbers(int num)
     {
-        if (num >= 1)
-            return num * multiplyNumbers(num - 1);
-        else
+        if (num < 1)
             return 1;
+            else
+            return num + multiplyNumbers(num - 1);
     }
 }
 
