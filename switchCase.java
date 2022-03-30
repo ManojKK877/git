@@ -11,7 +11,8 @@ import java.util.Scanner;
             int b=scan.nextInt(),c;
         switch(choice)
         {
-            case 1 :c=a+b;
+            case 1 :
+            c=a+b;
             System.out.println("the Addition value : "+a +"+"+b+"="+c);
             break;
             /*case 2:c=a-b;

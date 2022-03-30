@@ -32,7 +32,7 @@
 
 }
 System.out.println("the number of count value O :"+countofo);
-System.out.println("the number of count value I  :"+countofi);
+System.out.println("the number of count value I :"+countofi);
 System.out.println("the number of count value U :"+countofu);
 System.out.println("the number of count value E :"+countofe);
 System.out.println("the number of count value A :"+countofa);

@@ -1,5 +1,5 @@
 import java.util.EnumSet;
-enum Enumerations {
+/*enum Enumerations {
 	 
     MANOJ,KUMAR,DINESH,HARI,aravindhan; 
    Enumerations(){
@@ -13,15 +13,17 @@ enum Enumerations {
      public static void main(String[] args) {
            
              mano();
+             Enumerations  en =Enumerations.HARI;
+             System.out.println(en);
            
        }
 
     
 }
+*/
 
 
-
-/*enum Day{ 
+enum Day{ 
   Sunday,Tuesday,Monday,Friday,Saturday,Weden;
     
 }
@@ -57,6 +59,8 @@ enum Enumerations {
         }
         
     }
+}
+ }
         /*for(int i=0;i<myVar.length;i++)
         {
             System.out.println(myVar[i]);
